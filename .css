@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    
+.container{
+    height: 100vh;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: center;
+    align-items: center;
+    background: linear-gradient(135deg, #7384c5, #23ac73);
+
+    
+}
+  .container   .titlu{
+    display: block;
+height:  25px;
+    font-weight: 500;
+    margin: 25px 0 25px 5px;
+    padding: 10px 0 25px 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.container .info
+{display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+
+padding: 0px ;
+margin: 0px;
+}
+
+        .Inregistrare{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    font-size: large;
+    font-weight: 600;
+    
+}
+.datepersonale {
+    margin: 7px;
+    padding: 5px;
+    justify-content: center;
+    
+}
+
+form {
+
+
+    display:flexbox;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 25px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #FFF;
+
+    
+}
+
+
+input{
+    background: #FFF;
+    border-radius: 5px;
+    border: 1px solid #CCC ;
+    height: 30px;
+    width: 100%;
+    align-items:flex-start;
+    box-sizing: border-box;
+
+}
+
+
+
+form .button{
+    height: 45px;
+    margin: 45px 0;
+    width: 100%;
+}
+ form .button input{
+    color:#FFF;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 7px;
+    border: 1px solid #CCC;
+    background: linear-gradient(135deg, #7384c5, #23ac73);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
